@@ -1,0 +1,43 @@
+.tela{
+    display:flex ;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.config {
+    display: flex;
+    flex-direction: row;
+    gap: 295px;
+}
+
+.notificacoes {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.emConstrucao {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh; /* Ajuste conforme necessário */
+    text-align: center;
+}
+
+.iconConstrucao {
+    color: #f1c40f;
+    margin-bottom: 15px;
+}
+
+.emConstrucao h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.emConstrucao p {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-top: 10px;
+}

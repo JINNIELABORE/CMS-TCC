@@ -1,0 +1,39 @@
+.tela {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    width: 7vw;
+    height: 6%;
+    padding-left: 40px;
+}
+
+
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.usericon{
+    width: 2vw;
+    height: 4vh;
+    background-color: #011F4B;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.usericonimg {
+    width: 1vw;
+    height: 2vh;
+
+}
